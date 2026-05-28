@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Internal CSS Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        nav {
+            background-color: #4a90e2;
+            padding: 12px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 16px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 24px auto;
+            padding: 0 16px;
+        }
+
+        .section {
+            background-color: white;
+            border: 1px solid #dde4eb;
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 18px;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #264a7a;
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="home">
+            <h2>Welcome</h2>
+            <p>This page uses simple internal CSS and HTML structure. The paragraph text is intentionally smaller so it appears more compact and neat.</p>
+        </div>
+
+        <div class="section" id="about">
+            <h2>About</h2>
+            <p>This section shows how a div container and paragraph can be styled directly inside the HTML file, without any external stylesheet.</p>
+            <ul>
+                <li>Simple layout</li>
+                <li>Internal CSS</li>
+                <li>Small paragraph text</li>
+            </ul>
+        </div>
+
+        <div class="section" id="services">
+            <h2>Services</h2>
+            <p>Use this example as a base for learning how to structure content with divs, navigation, lists, and text.</p>
+            <ul>
+                <li>Web design examples</li>
+                <li>HTML structure tips</li>
+                <li>CSS styling basics</li>
+            </ul>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to update this code with your own headings, list items, and paragraphs as needed.</p>
+        </div>
+    </div>
+</body>
+</html>
