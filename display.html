@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Easy Display Example</title>
+  <style>
+    .block-box {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: #dbeafe;
+      margin-bottom: 10px;
+    }
+
+    .inline-box {
+      display: inline;
+      padding: 8px 12px;
+      background: #fde68a;
+      margin-right: 8px;
+    }
+
+    .inline-block-box {
+      display: inline-block;
+      width: 120px;
+      padding: 10px;
+      background: #bbf7d0;
+      margin-right: 8px;
+      text-align: center;
+    }
+
+    .flex-container {
+      display: flex;
+      gap: 8px;
+      padding: 10px;
+      background: #e2e8f0;
+      margin-top: 10px;
+    }
+
+    .flex-item {
+      padding: 10px;
+      background: #93c5fd;
+      color: #1e3a8a;
+      text-align: center;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="block-box">display: block;</div>
+
+  <span class="inline-box">display: inline;</span>
+  <span class="inline-box">display: inline;</span>
+
+  <div class="inline-block-box">display: inline-block;</div>
+  <div class="inline-block-box">display: inline-block;</div>
+
+  <div class="flex-container">
+    <div class="flex-item">Flex 1</div>
+    <div class="flex-item">Flex 2</div>
+    <div class="flex-item">Flex 3</div>
+  </div>
+</body>
+</html>
